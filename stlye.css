@@ -1,0 +1,102 @@
+
+ 
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ html {
+    height: 100%;
+ }
+ body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)) ,url("./image/martin-katler-gWAFuadPY1g-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .container {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+
+ .btn {
+     font-size: 20px;
+     padding: 10px 14px;
+     border-radius: 8px;
+     border: none;
+     
+ }
+
+ .btn-show {
+    color: #ffff;
+    background-color: rgb(42, 68, 68);
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+.btn-show:hover {
+    background-color:rgb(69, 86, 86) ;
+}
+
+
+
+ .modal {
+    position: absolute;
+        z-index: 100;
+        background-color: aliceblue;
+        width: 100%;
+        padding: 10px 10px;
+        border-radius: 10px;
+        
+ }
+ .hiddin {
+    display: none;
+ }
+
+.modal-header{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ .modal-btn {
+    background:transparent
+ }
+
+ .fa-solid {
+    font-size: 24px;
+ }
+
+ 
+
+ .title {
+    margin-bottom: 15px;
+ }
+
+ .description {
+    line-height: 22px;
+ }
+
+.overley {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0,0.5);
+
+}
